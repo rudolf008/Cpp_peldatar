@@ -1,0 +1,16 @@
+\section{Proba}
+\subsection{mintazhbol}
+
+\renewcommand{\labelenumi}{\thesubsection.\theenumi.}
+\begin{enumerate}
+
+\item Entwickeln Sie eine generische dynamische Array- (Vektor-) Klasse, die folgende Fahigkeiten besitzt:
+X Kann Elemente speichern (insertAt), solange es Speicherplatz gibt. Diese Funktion soll einen 0-basierten Parameter (Position) ubernehmen, und das neue Element soll in diese Position eingefugt werden. Wenn diese Position groser ist als die Arraygrose, ein Exception soll ausgelost werden!
+X Kann ein Element aus der gegebenen Position entfernen (removeAt)!
+X Kann entscheiden, ob ein Element im Array vorhanden ist (isElement),
+X Kann als Wertparameter an eine Funktion ubergeben werden.
+X Kann die Mehrfachzuweisung in Form v1=v2=v3 korrekt behandeln, wobei v1, v2, v3 mit gleichem Typparameter instanziierte Schablonen sind.
+X Welche Anforderungen werden von der Klasse an den zu speichernden Datentypen gesetzt (z. B. Existenz eines parameterlosen Konstruktors)?
+„X Geben Sie ein einfaches Beispielprogramm (hochstens 10 Anweisungen) an, die demonstriert, wie die Klasse benutzt werden kann. Auf Fehlerbehandlung kann im Testprogramm (aber nicht in der Klasse selbst!) verzichtet werden.
+
+\end{enumerate} 
